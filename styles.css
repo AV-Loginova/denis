@@ -1,0 +1,240 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Gilroy-Regular', sans-serif;  
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation {
+    padding-left: 155px;
+    padding-top: 13px;
+    padding-bottom: 32px;
+    border-bottom: 1px black solid;
+    color: black;
+}
+
+.navigation:first-child{
+    padding-left: 0px;
+    margin-left: 250px;
+}
+
+.navigation:last-child {
+    margin-right: 250px;
+}
+
+.link-navigation {
+    text-decoration: none;
+}
+
+.link-navigation:active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-navigation:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-navigation:visited {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 47px;
+    font-weight: bold;
+    margin-left: 290px;
+    margin-right: 300px;
+}
+
+.headline {
+    display: flex;
+}
+
+.prof {
+    margin-top: 90px;
+    margin-right: 240px;
+}
+
+.lang {
+    transform: rotate(90deg);
+    font-weight: bold;
+}
+
+.photo {
+    margin-left: 290px;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.about-me {
+    background-color: #F6F6F6;
+    padding-bottom: 107px;
+}
+
+.text-about-me {
+    margin-left: 480px;
+    margin-right: 480px;
+}
+
+.skills-info {
+    text-align: center;
+}
+
+.photoshop {
+    background-color: #34364E;
+    margin-left: 260px;
+}
+
+.illustrator {
+    background-color: #423325;
+    margin-left: 85px;
+}
+
+.after-effects {
+    background-color: #442F55;
+    margin-left: 85px;
+}
+
+.figma {
+    margin-left: 85px;
+}
+
+.skills {
+    display: flex;
+}
+
+.photoshop-text {
+    color: #828282;
+    font-size: 14px;
+    margin-left: 243px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.illustrator-text {
+    color: #828282;
+    font-size: 14px;
+    margin-left: 67px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.after-effects-text {
+    color: #828282;
+    font-size: 14px;
+    margin-left: 67px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.figma-text {
+    color: #828282;
+    font-size: 14px;
+    margin-left: 67px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.star {
+    padding-top: 40px;
+}
+
+.title-portfolio {
+    padding-top: 115px;
+}
+
+ .portfolio {
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+ .project {
+    margin-top: 45px;
+    margin-bottom: 100px;
+    color: black;
+    font-size: 18px;
+}
+
+ .project-link:link {
+    color: black;
+    font-size: 18px;
+}
+
+ .project-link:visited {
+    color: black;
+    font-size: 18px;
+}
+
+ .project-link:hover {
+    color: black;
+    font-size: 18px; 
+}
+
+ .project-link:active {
+    color: black;
+    font-size: 18px;
+}
+
+ .project-link:last-child {
+    padding-bottom: 70px;
+}
+
+ .title-contacts {
+    padding-top: 115px;
+}
+
+ .contacts {
+    text-align: center;
+}
+
+ .message {
+    background-color: black;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.message-margin {
+    margin-top: 30px;
+    margin-bottom: 80px;  
+} 
+
+.contact-description {
+    color: #828282;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.up-button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: 1400px;
+    margin-top: 650px;
+    position: fixed;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.shown {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-left: 1400px;
+    position: fixed;
+    visibility: visible;
+    cursor: pointer;
+}
