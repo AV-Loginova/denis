@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
@@ -28,6 +27,10 @@ body {
 
 .navigation:last-child {
     margin-right: 250px;
+}
+
+.link-navigation:link {
+    color: black;
 }
 
 .link-navigation {
