@@ -226,7 +226,6 @@ h2 {
 .up-button {
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    margin-left: 1400px;
     margin-top: 650px;
     position: fixed;
     visibility: hidden;
@@ -236,7 +235,7 @@ h2 {
 .shown {
     background-color: rgba(255, 255, 255, 0);
     border: none;
-    margin-left: 1400px;
+    margin-left: 90%;
     position: fixed;
     visibility: visible;
     cursor: pointer;
